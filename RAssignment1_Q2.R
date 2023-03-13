@@ -1,0 +1,5 @@
+attach(trees)
+plot(Height, Volume, main = "Tree Height and Volume", xlab = "Height(feet)", ylab = "Volume(cubic feet)")
+cor(Height, Volume)
+plot(Girth, Volume, main = "Tree Girth and Volume", xlab = "Girth(inches)", ylab = "Volume(cubic feet)")
+cor(Girth, Volume)
